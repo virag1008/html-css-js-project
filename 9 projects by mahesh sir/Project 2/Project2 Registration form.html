@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form </title>
+    <script src="https://kit.fontawesome.com/8cfed1d474.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+             background-image:url(blood\ donation.jpg);
+             background-size: 100%;
+             border: 2px solid black;
+ 
+         }
+         h1{
+             text-align: center;
+             font-size: 40px; 
+             text-shadow: 5px 6px 7px yellowgreen;
+         }
+         label{
+             font-size: 20px;
+         }
+         h2{
+             font-size: 25px;
+             margin:30px;
+         }
+         h4{
+            font-size: 30px;
+            text-shadow: 3px 4px 4px blue;
+            text-align: center;
+        } 
+        #class1{
+            width: 30%;
+        }
+        .xyz {
+            transition: 0.5s ease-in-out;
+            outline:none;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            font-size: 20px;
+            
+            
+            /* background-image: url(123.png);
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 10px 10px 10px 40px; */
+        }
+        .xyz:focus{
+            border:3px solid black;
+            background-color:goldenrod;
+            position: relative;
+            width: 100%;
+            
+        }
+        i{
+            position:fixed;
+            padding-top: 15px;
+        }
+        .test{
+            text-overflow:ellipsis;
+            /* text overflow bracket chya baher jat asel tr last la dot dots yetat so ELLIPSIS imp */
+            border: 1px solid black;
+            width: 200px;
+            margin: 20px;
+            white-space: nowrap; 
+            overflow: hidden;
+        }
+        .test:hover{
+            overflow: visible;
+        }
+        .vertical{
+            writing-mode: vertical-rl;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Registration Form for blood donation </h1>
+    <h4>Be the reason for someone's heartbeat.................</h4>
+    <h2>Donor Details</h2>
+    <div>
+        <form action="/start/form submited.html" target="_blank" method="get">
+
+            <aside style="float:right; width: 68%; height: 250px;">
+        
+                <table>
+                    <tr>
+                         <td><label>Password</label></td>
+                         <td><input type="password" placeholder="Minimum 8 character"></td>                     
+                    </tr>
+                    <tr>
+                         <td><label>Confirm Password</label></td>
+                         <td><input type="password"></td>         
+                    </tr>
+                    <tr>
+                         <td><label>Security Question</label></td>
+                         <td><select name="security Question">
+                           <option value="select">Select</option>
+                           <option value="1">1</option>
+                           </select></td>
+                    </tr>
+                    <tr>
+                         <td><label> security answer</label></td>
+                         <td><input name="text"></td>
+                    </tr>
+                    <tr>
+                          <td><label> Last Time Blood donated</label></td>
+                          <td><select name="Last Time Blood donated">
+                         <option value="not donated ever">not donated ever</option>
+                         <option value="3 month before">3 month before</option>
+                         <option value="in last 3 month">in last 3 month</option>
+                          </select></td>
+                    </tr>   
+                    <tr>
+                         <td><label> Gender </label></td>
+                         <td><input name="class" type="radio" value="male">Male
+                          <input name="class" type="radio" value="female">Female
+                          <input name="class" type="radio" value="other">other
+                         </label></td>
+                    </tr>
+                    <tr>
+                         <td><label> Birthdate</label></td>
+                         <td><input type="date" name="Birthdate"></td>
+                    </tr>
+                    <tr>
+                         <td><label> Any Comment </label></td>
+                         <td><textarea name="comment" placeholder="type any comment here" rows="3"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label> Search </label></td>
+                        <td> 
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="xyz" type="text" name="search" placeholder="search"></td>
+                    </tr>
+                </table> 
+        
+                 <input type="checkbox" value="donation" name="subject" id="101">
+                 <label> I read all the instruction. And i acept all the terms and conditions. </label>
+                 <br><br>
+                  <input type="submit" value="submit">       
+            </aside>
+
+            <div id="class1">      
+                <label>Donors Name :</label>
+                <input type="text" placeholder="Surname   Firstname   Middlename" required>
+                <!-- required command is for donor to compulsoryly to fill that input -->
+                <br><br>
+    
+                <label> Type: </label>
+                <select name="Select Type">
+                    <option value="Select type">     Select Type </option>
+                    <option value="handicapped"> handicapped </option>
+                    <option value="normal"> Normal </option>
+                </select>
+                
+                <br><br>
+    
+                <label>Blood Group:</label>
+                <select name="blood group" placeholder="Select Blood Group">
+                    <option value="Select blood group">Select blood group</option>
+                    <option value="= +ve">+ve </option>
+                    <option value="-ve">-ve</option>
+                </select>
+                <br><br>
+    
+                <label> State: </label>
+                <select name="states">
+                    <option value="states">Select state</option>
+                    <option value="maharashtra">Maharashtra</option>
+                </select>
+                <br><br>
+    
+                <label> District: </label>
+                <input type="text" placeholder="District">
+                <br><br>
+    
+                <label> Address </label>
+                <input type="text" placeholder="(optional)">
+                <br><br>
+    
+                <label>Mobile Number</label>
+                <input type="text">
+                <br><br>
+    
+                <label> E-Mail</label>
+                <input type="text">
+                <br><br>
+
+                <div class="test"> move cursor here-This is some long text that will not fit in the box so in last(...)appear </div>
+            </div>  
+    </div>     
+        </form>
+            <h3> for more information <a href=""> click here </a></h3>
+
+            <p class="vertical"> vertical text</p>
+            
+    
+    
+</body>
+</html>

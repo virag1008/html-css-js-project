@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cfed1d474.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Mphasis</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .main-nav {
+            height: 80px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            background-color: white;
+        }
+
+        .hidden {
+            height: 80px;
+        }
+
+        .logo {
+            height: 80px;
+            float: left;
+            width: 30%;
+            text-align: center;
+        }
+
+        .logo img {
+            height: 80px;
+
+        }
+
+        .nav1 {
+            height: 40px;
+            float: right;
+            width: 70%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .nav1 a {
+            font-size: 20px;
+            padding: 10px 20px;
+
+        }
+
+        .nav1 a:hover {
+            color: blueviolet;
+        }
+
+        .nav2 {
+            height: 40px;
+            float: right;
+            width: 70%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .nav2>a {
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+
+        .nav2>a:hover {
+            background-color: pink;
+        }
+
+        .drpdwn-10>a {
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+
+        .drpdwn-1 {
+            position: absolute;
+            top: 79px;
+            left: 0;
+            right: 0;
+            height: 380px;
+            background-image: linear-gradient(to bottom, pink, purple);
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 40px;
+            justify-content: center;
+            display: none;
+        }
+
+        .drpdwn-10:hover .drpdwn-1 {
+            display: grid;
+        }
+
+        .drpdwn-10 a:hover {
+            background-color: pink;
+        }
+
+        .item1 {
+            width: 250px;
+            text-align: left;
+        }
+
+        .item1 h4 {
+            margin-top: 10px;
+            padding-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .item1 p {
+            text-align: left;
+            padding: 5px 15px;
+        }
+
+        .item1 .doth4 {
+            margin-top: 40px;
+        }
+
+        .carousal-part {
+            height: 500px;
+            width: 100%;
+            border: 4px solid;
+
+        }
+
+        .carousal-part img {
+            width: 100%;
+            height: 490px;
+
+        }
+
+        .car-1 {
+            position: absolute;
+            top: 200px;
+            font-size: 22px;
+            text-align: center;
+
+
+        }
+
+        .car-1 button {
+            padding: 15px;
+            border-radius: 30px;
+            background-color: pink;
+            margin-top: 30px;
+        }
+
+        .car-1 button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .car-1>a {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: 1px solid;
+            display: inline-block;
+            margin-top: 120px;
+            background-color: white;
+            margin-right: 10px;
+        }
+
+        .car-1>a:focus {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="main-nav">
+
+        <div class="logo">
+            <img src="images/logo.png">
+        </div>
+        <nav class="nav1">
+            <a href="#">Investors</a>
+            <a href="#">News room</a>
+            <a href="#">CSR</a>
+            <a href="#">ESG</a>
+            <a href="#">Culture</a>
+            <a href="#">Contact</a>
+            <a href="#">France</a>
+            <a href="#">Germany</a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </nav>
+
+        <nav class="nav2">
+            <a href="#">OUR APPROACH</a>
+
+            <div class="drpdwn-10">
+                <a href="#">INDUSTRIES</a>
+                <div class="drpdwn-1">
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <p><a href="#">artificial intelligence.</a></p>
+                        <p><a href="#">computer technology.</a></p>
+                        <p><a href="#">computer-aided learning.</a></p>
+                        <p><a href="#">computer-aided testing.</a></p>
+                        <p><a href="#">cybernetics.</a></p>
+                        <p><a href="#">data processing.</a></p>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Insurance</a></h4>
+                        <hr>
+                        <p><a href="#">artificial intelligence.</a></p>
+                        <p><a href="#">computer technology.</a></p>
+                        <p><a href="#">computer-aided learning.</a></p>
+                        <p><a href="#">computer-aided testing.</a></p>
+                        <h4><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="drpdwn-10">
+                <a href="#">SERVICES</a>
+                <div class="drpdwn-1">
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Insurance</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4><a href="#">Banking capital market</a></h4>
+                        <hr>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Life science</a></h4>
+                        <hr>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">Healthcare</a></h4>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="drpdwn-10">
+                <a href="#">INNOVATION</a>
+                <div class="drpdwn-1" style="justify-content: left;">
+                    <div class="item1" style="margin-left: 120px;">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4 class="h4"><a href="#">hi-tech</a></h4>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+            <div class="drpdwn-10">
+                <a href="#">ABOUT MPHASIS</a>
+                <div class="drpdwn-1" style="justify-content: left;">
+                    <div class="item1" style="margin-left: 120px;">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <h4><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Insurance</a></h4>
+                        <hr>
+                        <h4><a href="#">hi-tech</a></h4>
+                        <hr>
+                        <h4><a href="#">Healthcare</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                        <h4><a href="#">Life science</a></h4>
+                        <hr>
+                    </div>
+                    <div class="item1">
+                        <h4 class="doth4"><a href="#">Banking capital market</a></h4>
+                        <hr>
+                        <p><a href="#">artificial intelligence.</a></p>
+                        <p><a href="#">computer technology.</a></p>
+                        <p><a href="#">computer-aided learning.</a></p>
+                        <p><a href="#">computer-aided testing.</a></p>
+                        <p><a href="#">cybernetics.</a></p>
+                        <p><a href="#">data processing.</a></p>
+                    </div>
+                </div>
+            </div>
+            <a href="#">CAREERS</a>
+        </nav>
+    </nav>
+    <div class="hidden"></div>
+
+    <div class="carousal-part">
+
+        <img src="images/1.jpg">
+        <div class="car-1">
+            <h1>Mphasis Accelerates its European Operations and Digital Services with the Launch of its German Hub</h1>
+            <button type="button"> <a href="#">KNOW MORE ...</a> </button>
+            <br>
+
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

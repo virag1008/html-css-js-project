@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8cfed1d474.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Image Editor</title>
+    <style>
+        body{
+            background-color: rgb(231, 242, 245);
+        }
+        .container{
+            box-shadow: 0 0 5px grey;
+            background-color: white;
+            height: 420px;
+            width: 750px;
+        }
+        
+        .left{
+            box-shadow: 0 0 5px grey;
+            height: 300px;
+            float: left;
+            width: 33%;
+            padding: 15px;
+        }
+        .left .btn{
+             width: 100px;
+        }
+        .left .vj{
+            width: 20%;
+        }
+        .left input{
+            width: 100%;
+        }
+        .right{
+            box-shadow: 0 0 5px grey;
+            float: right;
+            height: 300px;
+            width: 65%;
+        }
+        .right img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h3 class="p-2">Easy Image Editor </h3>
+
+        <div class="left">
+             <h5>Filters</h5>
+
+             <div class="btn btn-primary ">Brightness</div>
+             <div class="btn btn-outline-dark">Inversion</div>
+             <br>
+             <div class="btn btn-outline-dark mt-2">Saturation</div>
+             <div class="btn btn-outline-dark mt-2">Grayscale</div>
+             <br>
+             <h6 class="mt-2" style="float:left;">Brightness </h6>
+             <h6 class="mt-2" style="float:right;"> 100% </h6>
+             <br>
+             <input type="range" min="0" max="100">
+             <br>
+             <h6 class="mt-2">Rotate & Flip </h6>
+             
+             <div style=" text-align: center;">
+             <div class="btn btn-outline-dark vj"><i class="fa-solid fa-rotate-left"></i></div>
+             <div class="btn btn-outline-dark vj"><i class="fa-solid fa-rotate-right"></i></div>
+             <div class="btn btn-outline-dark vj"><i class="fa-solid fa-left-right"></i></div>
+             <div class="btn btn-outline-dark vj"><i class="fa-solid fa-up-down"></i></div>
+            </div>
+
+        </div>
+        <div class="right">
+             <img src="images/4.jpg">
+        </div>
+
+        <div class="footer">
+            <div class="one" style="float:left ;">
+            <button class="btn btn-outline-dark mt-2"> RESET FILTERS</button>
+        </div>
+<div class="two"  style="float:right;">
+            <button class="btn btn-dark  mt-2">CHOOSE IMAGE</button>
+            <button class="btn btn-primary  mt-2">SAVE IMAGE</button>
+        </div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>

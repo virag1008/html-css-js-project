@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stylesheet 2</title>
+    <link rel="icon" href="favicon.gif" type="icon/x-image/gif">
+    <style>
+body{
+    background-color: rgb(104, 15, 15);
+}
+nav{
+    color: white;
+    padding-left: 30px;
+}
+nav h1{
+    font-size: 55px;
+    padding: 5px;
+    line-height: 0.1;
+}
+nav p{
+    font-size: 30px;
+}
+aside{
+    float: right;
+    width: 25%;
+    height: 300px;
+    margin-right: 20px;
+    background-color: white;
+}
+aside a{
+    display: block;
+    font-size: 22px;
+    background-color: brown;
+    margin: 7px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 170px;
+    border-radius: 20px;
+    float: right;
+    padding: 3px;
+}
+aside a:hover{
+    background-color: white;
+    color:rgb(104, 15, 15) ;
+    border: 1px solid rgb(104, 15, 15) ;
+}
+aside a:nth-child(2){
+    background-color: white;
+    color:rgb(104, 15, 15) ;
+    border: 1px solid rgb(104, 15, 15) ;
+    font-weight: bold;
+}
+.last{
+    position:absolute;
+    bottom: 196px;
+    float: left;
+    width: 75%;
+    height: 300px;
+    margin-left: 20px;
+    background-color: white;
+}
+.last h1,p,a {
+    margin-left: 20px;
+}
+.last h1{
+    color: rgb(104, 15, 15);
+}
+#sidebar{   
+    background-color: rgb(233, 169, 217);
+    clear: both;
+    display:block;
+    margin-left: 20px;
+    color:rgb(104, 15, 15) ;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+footer{
+    clear: left;
+    margin: 20px;
+    background-color: rgb(104, 15, 15);
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:rgb(104, 15, 15);
+}
+.last a:hover{
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Welcome to My Homepage</h1>
+        <p>Use the menu to select different Stylesheets</p>
+   </nav>
+
+   <div>
+       <aside id="virag">
+           <a href="stylesheet1.html" alt="css1">stylesheet 1 </a>
+           <a href="stylesheet2.html" alt="css1">stylesheet 2 </a>
+           <a href="stylesheet3.html" alt="css1">stylesheet 3 </a>
+           <a href="stylesheet4.html" alt="css1">stylesheet 4 </a>
+           <a href="no stylesheet.html" alt="css1">No stylesheet </a>
+       </aside>
+
+       <section id="sidebar">
+           <h1>Side-Bar</h1>
+           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+       </section>
+
+       <div class="last">
+           <h1>Same Page Different Stylesheets</h1>
+           <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+           
+           <a href="stylesheet1.html" alt="css1">stylesheet 1, </a>
+           <a href="stylesheet2.html" alt="css1">stylesheet 2, </a>
+           <a href="stylesheet3.html" alt="css1">stylesheet 3, </a>
+           <a href="stylesheet4.html" alt="css1">stylesheet 4. </a>
+          
+
+           <h1>No Styles</h1>
+           <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+           <a href="no stylesheet.html" alt="css1">No stylesheet </a>
+       </div>
+   </div>
+
+   <footer>
+       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+   </footer>
+    
+</body>
+</html>

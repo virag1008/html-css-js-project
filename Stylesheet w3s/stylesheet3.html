@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stylesheet3</title>
+    <link rel="icon" href="favicon.gif" type="icon/x-image/gif">
+    <style>
+        body{
+            margin: 20px;
+            border: 40px solid transparent;
+            padding: 25px;
+            border-image: url(/border\ img.png) 300 round;
+            background-image: url(/sk.png), url(/pexels-miguel-á-padriñán-255379.jpg);
+            background-repeat: no-repeat,repeat;
+            background-position: right top, top left;  
+        }
+        /* in this case small image take first then take bigger image second */
+        .head h1{
+            color: rgb(86, 163, 8);
+            font-size: 40px;
+        }
+        .head{
+           line-height: 30px;
+            margin: 40px;
+        }
+        .head p{
+            font-size: 20px;
+        }
+        li a{
+            display:flex;
+            margin: 5px;
+            width: 150px;
+            background-color:rgb(85, 83, 83) ;
+            height: 32px;
+            font-size: 20px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            float: left;
+            text-decoration: none;
+        }
+        .three{
+            background-color:rgb(86, 163, 8) ;
+        }
+        li a:hover{
+            background-color: black;
+        }
+        
+        ul{
+            list-style-type: none;
+        }
+        nav{
+            width: 800px;
+            height: 100px;
+        }
+        .main{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .main h1 {
+            color: rgb(86, 163, 8);
+            font-size: 40px;
+            margin-top: 0;
+            padding: 0;
+        }
+        .main p,a {
+            font-size: 20px;
+        }
+        .main a{
+            color: black;
+        }
+        .main a:hover{
+            color: rgb(86, 163, 8);
+        }
+        h2{
+            color:rgb(86, 163, 8) ;
+        }
+        .vj{
+            padding: 10px;
+            background-color: rgb(223, 219, 219);
+            margin-left: 40px;
+            margin-right: 40px;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 23px;
+            color: rgb(86, 163, 8);
+        }
+        footer{
+            text-align: center;
+            margin-bottom: 50px;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="head">
+            <h1>Welcome to My Homepage</h1>
+            <p>Use the menu to select different Stylesheets</p>
+        </div>
+
+        <nav>
+            <ul>
+               <li><a href="stylesheet1.html" >stylesheet 1 </a></li>
+               <li><a href="stylesheet2.html" >stylesheet 2 </a> </li>
+               <li><a href="stylesheet3.html" class="three">stylesheet 3 </a> </li>
+               <li><a href="stylesheet4.html" >stylesheet 4 </a> </li>
+               <li><a href="no stylesheet.html" >No stylesheet</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <h1>Same Page Different Stylesheets</h1>
+        <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
+        <br>
+        <a href="stylesheet1.html"alt="css1">stylesheet 1</a>,
+        <a href="stylesheet2.html"alt="css1">stylesheet 2</a>,
+        <a href="stylesheet3.html"alt="css1">stylesheet 3</a>,
+        <a href="stylesheet4.html"alt="css1">stylesheet 4</a>.
+        </p> 
+
+        <h2>No Styles</h2>
+        <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no      stylesheet:
+            <br>
+        <a href="no stylesheet.html" alt="css1">No stylesheet </a>.
+        </p>
+    </div>
+
+    <div class="vj">
+        <h3>Side-Bar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+    </footer>
+</body>
+</html>

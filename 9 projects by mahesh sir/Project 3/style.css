@@ -1,0 +1,64 @@
+body,html{
+    height: 100%;
+    margin:0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(48, 87, 9);
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70 ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*  Fixed= parallax
+        scroll = normal */
+    background-attachment: fixed;
+}
+
+.pimg1{
+  background-image:url(ani2/ani1.jpg);
+  min-height: 100%;  
+}
+.pimg2{
+    background-image:url(ani2/ani2.jpg);
+    min-height:400px;  
+  }
+  .pimg3{
+    background-image:url(ani2/ani3.jpg);
+    min-height: 400px;  
+  }
+
+  .section{
+    text-align: center;
+    padding: 10px;
+  }
+  .section-light{
+    background-color: rgb(214, 233, 240);
+  }
+  .section5 {
+    background-color: rgb(215, 245, 177);
+    color:rgb(34, 25, 25);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  .ptext{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 6px;
+    
+  }
+  .border{
+    background-color:rgb(139, 67, 15) ;
+    color: black;
+  }
+  .trans{
+    background-color:transparent;
+  }

@@ -1,0 +1,744 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fauna One', serif;
+}
+
+.page1 {
+    width: 100%;
+    height: 650px;
+}
+
+.pic1 img {
+    float: right;
+    width: 40%;
+    height: 650px;
+    opacity: 0.7;
+}
+
+.page1 section {
+    float: right;
+    width: 48%;
+    height: 650px;
+    line-height: 70px;
+}
+
+.page1 section h1 {
+    font-size: 65px;
+    color: rgb(68, 67, 67);
+    margin-top: 250px;
+}
+
+.page1 section p {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
+}
+
+.page1 section p span {
+    color: blue;
+}
+
+.page1 section i {
+    font-size: 25px;
+    letter-spacing: 25px;
+    color: rgb(68, 67, 67);
+}
+
+.page1 section i:hover {
+    color: blue;
+}
+
+.nav1 {
+    float: right;
+    width: 12%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.nav1 a:first-child {
+    margin-top: 100px;
+}
+
+.nav1 a {
+    font-size: 20px;
+    display: block;
+    line-height: 50px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    color: rgb(68, 67, 67);
+    text-decoration: none;
+    width: 40px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.nav1 a:hover {
+    width: 120px;
+    height: auto;
+    background-color: blue;
+    color: white;
+}
+
+.page2 {
+    float: right;
+    width: 88%;
+    height: 700px;
+    text-align: center;
+}
+
+.page2 h1 {
+    font-size: 30px;
+    color: rgb(68, 67, 67);
+    padding-top: 50px;
+}
+
+.page2 p {
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+}
+
+.pic2 {
+    float: left;
+    width: 30%;
+    max-height: 100%;
+}
+
+.pic2 img {
+    height: 340px;
+}
+
+.width-mob {
+    float: left;
+    width: 70%;
+}
+
+.part2 h2 {
+    text-align: left;
+    font-size: 27px;
+    color: rgb(136, 135, 135);
+}
+
+.part2 p {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.middlepart2 {
+    width: 100%;
+    height: 175px;
+}
+
+.table-one {
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 12px;
+    line-height: 1.2;
+}
+
+.table-one span {
+    font-weight: bold;
+}
+
+.table-two {
+    float: left;
+    text-align: left;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 12px;
+    line-height: 1.2;
+}
+
+.table-two span {
+    font-weight: bold;
+}
+
+.page-2-footer {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.page-three {
+    float: right;
+    width: 88%;
+    height: 320px;
+}
+
+.pg3-header {
+    text-align: center;
+}
+
+.pg3-header p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.facts-1 {
+    text-align: center;
+    float: left;
+    width: 25%;
+    display: block;
+    padding-top: 40px;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.facts-1 i {
+    color: blue;
+}
+
+.facts-1 p {
+    font-size: 20px;
+}
+
+.page-4 {
+    float: right;
+    width: 88%;
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.page-4 p {
+    font-size: 20px;
+}
+
+.vir p {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.page5 {
+    float: right;
+    width: 88%;
+    height: 950px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card {
+    text-align: left;
+    margin: 15px;
+    box-shadow: 0 0 10px grey;
+    padding-left: 20px;
+}
+
+.vj {
+    width: 200px;
+}
+
+.vj span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.blue-text {
+    color: blue;
+    font-weight: bold;
+}
+
+.page-6 {
+    float: right;
+    width: 88%;
+    height: 1050px;
+    text-align: center;
+}
+
+.portf {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.column-photo {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column-photo img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    transition: width 0.5s;
+    box-shadow: 0 0 5px gray;
+}
+
+.column-photo img:hover {
+    width: 103%;
+}
+
+.pg6-header span a {
+    padding: 15px;
+    text-decoration: none;
+    color: rgb(119, 94, 94);
+}
+
+.pg6-header span a:first-child {
+    color: blue;
+}
+
+.pg6-header span a:hover {
+    color: blue;
+}
+
+.pg6-header p {
+    font-size: 20px;
+}
+
+.page-7 {
+    float: right;
+    width: 88%;
+    height: 850px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.page-7 p {
+    font-size: 20px;
+}
+
+.page-7 card:hover {
+    box-shadow: 0 0 7px rgb(126, 90, 90);
+}
+
+.page-7 .card {
+    text-align: center;
+}
+
+.page-7 .card a {
+    text-decoration: none;
+    color: rgb(158, 124, 124);
+}
+
+.page-7 .card i {
+    font-size: 45px;
+    padding: 50px;
+    width: 100%;
+}
+
+.fa-screenpal {
+    color: coral;
+}
+
+.fa-cannabis {
+    color: forestgreen;
+}
+
+.fa-handshake {
+    color: khaki;
+}
+
+.fa-street-view {
+    color: cyan;
+}
+
+.fa-folder-tree {
+    color: lawngreen;
+}
+
+.fa-free-code-camp {
+    color: lightsteelblue;
+}
+
+.fa-screenpal:hover {
+    color: chocolate;
+}
+
+.fa-cannabis:hover {
+    color: greenyellow;
+}
+
+.fa-handshake:hover {
+    color: black;
+}
+
+.fa-street-view:hover {
+    color: crimson;
+}
+
+.fa-folder-tree:hover {
+    color: blueviolet;
+}
+
+.fa-free-code-camp:hover {
+    color: darkslategray;
+}
+
+.page-8 {
+    float: right;
+    width: 88%;
+    height: 570px;
+    text-align: center;
+    color: black;
+}
+
+.carousel-item {
+    padding: 0 50px;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 800px;
+}
+
+.page-9 {
+    float: right;
+    width: 88%;
+    height: 400px;
+    text-align: center;
+}
+
+.page-9 input {
+    padding: 10px;
+}
+
+.page-9 h1 {
+    padding-bottom: 30px;
+}
+
+.first-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(214, 250, 238);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-icon i {
+    font-size: 20px;
+}
+
+.location {
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.location h4 {
+    margin: 0;
+    text-align: left;
+}
+
+.page-10 {
+    float: right;
+    width: 88%;
+    height: 320px;
+    text-align: center;
+    background-color: powderblue;
+}
+
+.page-10 h1 {
+    padding-top: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer a {
+    color: black;
+    display: inline-block;
+
+}
+
+.footer>div {
+    padding: 10px;
+}
+
+.first-icon:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+@media only screen and (max-width:470px) {
+    .nav1 {
+        display: block;
+        width: 100%;
+        height: 80px;
+        background-image: linear-gradient(to right, lightblue, white, yellow, lightgreen);
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .nav1 a:first-child {
+        margin-top: 10px;
+    }
+
+    .nav1 a:hover {
+        width: 80px;
+        margin: 0;
+    }
+
+    .nav1 a {
+        font-size: 15px;
+        display: inline-block;
+        padding-left: 10px;
+        width: 28px;
+        height: 40px;
+        overflow: hidden;
+        margin-left: 0px;
+    }
+
+    .page1 section h1 {
+        font-size: 45px;
+        margin-top: 0px;
+    }
+
+    .page1 section p {
+        font-size: 20px;
+    }
+
+    .page1 section i {
+        font-size: 25px;
+        letter-spacing: 20px;
+        padding-left: 10px;
+    }
+
+    .pic1 img {
+        float: none;
+        width: 100%;
+        height: 450px;
+        margin-top: 30px;
+        opacity: 1;
+    }
+
+    .page1 section {
+        float: none;
+        width: 100%;
+        height: 650px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .page2 {
+        width: 100%;
+        float: none;
+    }
+
+    .page2 h1 {
+        padding: 0px;
+    }
+
+    .page2 p {
+        padding-top: 15px;
+    }
+
+    .pic2 {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pic2 img {
+        width: 100%;
+    }
+
+    .page2 .width-mob {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(194, 194, 235);
+        display: none;
+    }
+
+    .part2 {
+        float: none;
+        width: 100%;
+    }
+
+    .part2 h2 {
+        margin: 0px;
+        float: none;
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .part2 p {
+        float: none;
+        width: 100%;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .page2 .page2bottom {
+        float: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    .table-one {
+        margin: 0;
+        float: none;
+        width: 100%;
+        font-size: 17px;
+        padding-top: 5px;
+    }
+
+    .table-two {
+        margin: 0;
+        float: none;
+        width: 100%;
+        font-size: 17px;
+        padding-top: 5px;
+    }
+
+    .page-2-footer {
+        display: none;
+    }
+
+    .page-three {
+        float: none;
+        display: block;
+        width: 100%;
+        height: 465px;
+    }
+
+    .facts-1 {
+        text-align: center;
+        float: left;
+        width: 25%;
+        display: block;
+        padding-top: 20px;
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .page-4 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .page5 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+        padding-top: 20px;
+    }
+
+    .page-6 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .column-photo {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .page-7 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .page-8 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .carousel-item {
+        padding: 0px;
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .page-9 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .page-9 input {
+        padding: 10px;
+    }
+
+    .first-icon {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .first-icon i {
+        font-size: 15px;
+    }
+
+    .location {
+        height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .location h4 {
+        font-size: 20px;
+    }
+
+    .page-10 {
+        float: none;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer>div {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width:912px) {
+    .page2 {
+        display: none;
+    }
+
+    .page-three {
+        height: fit-content;
+    }
+
+    .page-4 {
+        height: fit-content;
+    }
+
+    .page5 {
+        height: fit-content;
+    }
+
+    .page-6 {
+        height: fit-content;
+    }
+
+    .page-7 {
+        height: fit-content;
+    }
+
+    .page-8 {
+        height: fit-content;
+    }
+
+    .page-9 {
+        height: fit-content;
+    }
+
+    .page-10 {
+        height: fit-content;
+    }
+}
